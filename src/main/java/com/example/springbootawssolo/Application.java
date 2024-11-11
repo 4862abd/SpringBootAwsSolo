@@ -2,8 +2,10 @@ package com.example.springbootawssolo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
-
+// JPA Auditing 활성화
+@EnableJpaAuditing
 // 해당 애너테이션으로 인해 스프링 부트의 자동 설정, 스프링 빈 읽기와 생성을 자동으로 설정
 // 이 애너테이션이 있는 위치부터 설정을 읽어가기 때문에 최상단 위치 필요
 @SpringBootApplication
