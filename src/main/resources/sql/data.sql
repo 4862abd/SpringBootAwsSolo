@@ -1,1 +1,1 @@
-insert into posts (author, content, title) values ('author', 'content', 'title');
+insert into posts_springboot_aws_solo (author, content, title) values ('author', 'content', 'title');
