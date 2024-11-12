@@ -26,15 +26,22 @@ dependencies {
     runtimeOnly 'com.h2database:h2'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
 //    lombok
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+
 //    mustache
     implementation 'org.springframework.boot:spring-boot-starter-mustache'
+
 //    oauth2
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+
 //    spring session jdbc
     implementation 'org.springframework.session:spring-session-jdbc'
+
+//    spring security test
+    testImplementation 'org.springframework.security:spring-security-test'
 }
 
 tasks.named('test') {
