@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @Entity
-@Table(name = "posts_springboot_aws_solo")  // 추후 posts 라는 테이블 명의 사용을 위해 변경
+@Table(name = "springboot_aws_solo_posts")  // 추후 posts 라는 테이블 명의 사용을 위해 변경
 public class Posts extends BaseTimeEntity {
 
     @Id
