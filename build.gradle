@@ -50,6 +50,9 @@ dependencies {
 
 //    spring security test
     testImplementation 'org.springframework.security:spring-security-test'
+
+//    MariaDB
+    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
 }
 
 tasks.named('test') {
