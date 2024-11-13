@@ -1,13 +1,13 @@
 -- # Select Database
 -- # show databases ;
--- # use freelec_springboot_webservice;
+-- # use AWS RDS 데이터베이스명;
 --
 -- # Check Character Setting
 -- # show variables like 'character_set%';
 -- # show variables like 'collation%';
 --
 -- # Alter Character Setting
--- # alter database freelec_springboot_webservice
+-- # alter database AWS RDS 데이터베이스명
 -- # character set = 'utf8mb4'
 -- # collate = 'utf8mb4_general_ci';
 --
