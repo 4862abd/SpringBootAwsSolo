@@ -1,0 +1,25 @@
+-- # Select Database
+-- # show databases ;
+-- # use freelec_springboot_webservice;
+--
+-- # Check Character Setting
+-- # show variables like 'character_set%';
+-- # show variables like 'collation%';
+--
+-- # Alter Character Setting
+-- # alter database freelec_springboot_webservice
+-- # character set = 'utf8mb4'
+-- # collate = 'utf8mb4_general_ci';
+--
+-- # Check Timezone
+-- # select @@time_zone, now();
+--
+-- # create table test (
+--                         #     id bigint(20) not null auto_increment,
+--                         #     content varchar(255) default null,
+--                         #     primary key (id)
+--                             # ) engine=InnoDB;
+-- #
+-- # insert into test(content) values ('테스트');
+-- #
+-- # select * from test;
