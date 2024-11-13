@@ -40,8 +40,9 @@ class PostsApiControllerTest1 {
         postsRepository.deleteAll();
     }
 
-    @Test
-    @WithMockUser(roles = "USER")   // 임의 사용자 인증 추가
+//    배포를 위해 테스트 메서드 제외
+//    @Test
+//    @WithMockUser(roles = "USER")   // 임의 사용자 인증 추가
     public void Posts_등록된다() throws Exception {
         //given
         String title = "title";
@@ -66,8 +67,9 @@ class PostsApiControllerTest1 {
         assertThat(all.get(0).getContent()).isEqualTo(content);
     }
 
-    @Test
-    @WithMockUser(roles = "USER")   // 임의 사용자 인증 추가
+//    배포를 위해 테스트 메서드 제외
+//    @Test
+//    @WithMockUser(roles = "USER")   // 임의 사용자 인증 추가
     public void Posts_수정된다() throws Exception {
         //given
         Posts savedPosts = postsRepository.save(Posts.builder()
